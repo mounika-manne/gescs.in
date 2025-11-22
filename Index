@@ -1,48 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GESCS – Professional Business Services</title>
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GESCs – Geospatial, Environmental & Structural Consulting Services</title>
+    <link rel="stylesheet" href="Styles.css">
 </head>
 
 <body>
-  <header>
-    <div class="logo">GESCS</div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="services.html">Services</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
 
-  <section class="hero">
-    <h1>Professional Services for Smarter Business</h1>
-    <p>We provide tailored business solutions that help you grow, manage, and scale effortlessly.</p>
-    <a href="services.html" class="btn">View Services</a>
-  </section>
+    <header>
+        <div class="container">
+            <h1 class="logo">GESCs</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <section class="features">
-    <div class="card">
-      <h3>Reliable</h3>
-      <p>We deliver consistent service with complete accountability.</p>
-    </div>
+    <section class="hero">
+        <div class="container">
+            <h2>Geospatial, Environmental & Structural Consulting Services</h2>
+            <p>Delivering accurate data, sustainable solutions, and reliable engineering support.</p>
+            <a class="button" href="Services.html">Explore Our Services</a>
+        </div>
+    </section>
 
-    <div class="card">
-      <h3>Professional</h3>
-      <p>Expert-level execution across all business verticals.</p>
-    </div>
+    <footer>
+        <p>© 2025 GESCs — Geospatial, Environmental & Structural Consulting Services</p>
+    </footer>
 
-    <div class="card">
-      <h3>On-Time</h3>
-      <p>Timely delivery is our standard operating principle.</p>
-    </div>
-  </section>
-
-  <footer>
-    © 2025 GESCS. All Rights Reserved.
-  </footer>
 </body>
 </html>
