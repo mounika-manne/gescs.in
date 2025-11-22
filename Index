@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>GES – Global Enterprise Services</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GESCS – Professional Business Services</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
   <header>
-    <h1>GES</h1>
+    <div class="logo">GESCS</div>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -16,12 +19,30 @@
   </header>
 
   <section class="hero">
-    <h2>Professional Services for Your Business Growth</h2>
-    <p>We provide reliable and efficient business solutions tailored to your needs.</p>
+    <h1>Professional Services for Smarter Business</h1>
+    <p>We provide tailored business solutions that help you grow, manage, and scale effortlessly.</p>
+    <a href="services.html" class="btn">View Services</a>
+  </section>
+
+  <section class="features">
+    <div class="card">
+      <h3>Reliable</h3>
+      <p>We deliver consistent service with complete accountability.</p>
+    </div>
+
+    <div class="card">
+      <h3>Professional</h3>
+      <p>Expert-level execution across all business verticals.</p>
+    </div>
+
+    <div class="card">
+      <h3>On-Time</h3>
+      <p>Timely delivery is our standard operating principle.</p>
+    </div>
   </section>
 
   <footer>
-    <p>© 2025 GES. All Rights Reserved.</p>
+    © 2025 GESCS. All Rights Reserved.
   </footer>
 </body>
 </html>
